@@ -72,7 +72,7 @@ namespace PdfSharpCore.Utils
             }
             public void SaveAsPdfBitmap(MemoryStream ms)
             {
-                BmpEncoder bmp = new BmpEncoder { BitsPerPixel = BmpBitsPerPixel.Pixel32 };
+                BmpEncoder bmp = new BmpEncoder { BitsPerPixel = BmpBitsPerPixel.Bit32 };
                 Image.Save(ms, bmp);
             }
         }

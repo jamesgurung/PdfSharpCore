@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net10.0</TargetFrameworks>
+    <TargetFrameworks>net11.0</TargetFrameworks>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Stefan Steiger and Contributors</Authors>
@@ -25,7 +25,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PdfSharpCore\PdfSharpCore.ImageSharp3.csproj" />
+    <ProjectReference Include="..\PdfSharpCore\PdfSharpCore.ImageSharp4.csproj" />
   </ItemGroup>
 
   <ItemGroup>

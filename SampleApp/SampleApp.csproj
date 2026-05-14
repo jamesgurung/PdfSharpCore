@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net10.0</TargetFrameworks>
+    <TargetFrameworks>net11.0</TargetFrameworks>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PdfSharpCore\PdfSharpCore.ImageSharp3.csproj" />
+    <ProjectReference Include="..\PdfSharpCore\PdfSharpCore.ImageSharp4.csproj" />
 	<TrimmerRootAssembly Include="PdfSharpCore" />
   </ItemGroup>
 

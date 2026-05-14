@@ -250,7 +250,7 @@ namespace PdfSharpCore.Pdf.IO
         {
             _pdfSteam.Position = position;
             byte[] bytes = new byte[length];
-            _pdfSteam.Read(bytes, 0, length);
+            _pdfSteam.ReadExactly(bytes, 0, length);
             return PdfEncoders.RawEncoding.GetString(bytes, 0, bytes.Length);
         }
 

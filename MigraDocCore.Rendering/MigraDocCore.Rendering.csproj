@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net10.0</TargetFrameworks>
+    <TargetFrameworks>net11.0</TargetFrameworks>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Stefan Steiger and Contributors</Authors>
@@ -29,7 +29,7 @@ MigraDocCore.Rendering was ported from MigraDoc version 1.32</Description>
   <ItemGroup>
     <ProjectReference Include="..\MigraDocCore.DocumentObjectModel\MigraDocCore.DocumentObjectModel.csproj" />
     <ProjectReference Include="..\PdfSharpCore.Charting\PdfSharpCore.Charting.csproj" />
-    <ProjectReference Include="..\PdfSharpCore\PdfSharpCore.ImageSharp3.csproj" />
+    <ProjectReference Include="..\PdfSharpCore\PdfSharpCore.ImageSharp4.csproj" />
   </ItemGroup>
 
   <ItemGroup>
